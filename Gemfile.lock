@@ -250,7 +250,7 @@ GEM
     thread_safe (0.3.6)
     typhoeus (1.7.1)
       ethon (>= 0.19.1, < 0.20.0)
-    tzinfo (1.2.10)
+    tzinfo (1.2.11)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
