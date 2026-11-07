@@ -24,8 +24,7 @@ This is the text **Copy AI Agent Instructions** puts on your clipboard. If your 
 
 This Mac has Gifable. To record a GIF of the screen (e.g. to show a UI change in a PR), run:
 
-    d=$(mktemp -d) && echo "window Simulator 8" > "$d/request.txt"
-    shortcuts run "Gifable Record" -i "$d/request.txt"; rm -rf "$d"
+    gifable_dir=$(mktemp -d) && echo "window Simulator 8" > "$gifable_dir/request.txt" && shortcuts run "Gifable Record" -i "$gifable_dir/request.txt"
 
 It records, then prints the saved file's path. Copy the file where you need it.
 Requests (N = seconds, 1–60, default 5):
