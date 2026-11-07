@@ -1,0 +1,157 @@
+/*
+ * Gifable site additions, loaded after new-age.min.css.
+ * Kept separate so the vendored New Age template files stay untouched.
+ */
+
+/* ---------- Footer (all pages) ---------- */
+
+/* new-age sets footer text to 30% white on #222, which is too faint to read. */
+footer p,
+footer ul li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul {
+  margin-top: 8px;
+}
+
+footer ul li a:hover,
+footer ul li a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ---------- Content pages (Support, Privacy) ---------- */
+
+.content-page #mainNav .navbar-brand,
+.content-page #mainNav .navbar-brand:hover,
+.content-page #mainNav .navbar-brand:focus {
+  color: #222;
+}
+
+.content-page #mainNav .navbar-nav > li > a[aria-current="page"] {
+  color: #7b4397;
+}
+
+.page-header {
+  padding: 130px 0 50px;
+  color: #fff;
+  text-align: center;
+  background: #7b4397;
+  background: url("../images/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.page-header .lede {
+  max-width: 640px;
+  margin: 12px auto 0;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    padding: 160px 0 70px;
+  }
+
+  .page-header h1 {
+    font-size: 60px;
+  }
+}
+
+.page-content {
+  padding: 50px 0 70px;
+}
+
+.page-body {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #333;
+}
+
+.page-body h2 {
+  margin: 50px 0 16px;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.page-body h2:first-child {
+  margin-top: 0;
+}
+
+.page-body h3 {
+  margin: 34px 0 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.page-body ul {
+  margin-bottom: 20px;
+  padding-left: 1.25em;
+}
+
+.page-body li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.page-body a {
+  color: #7b4397;
+  text-decoration: underline;
+}
+
+.page-body a:hover,
+.page-body a:focus {
+  color: #b5203a;
+}
+
+.page-body code {
+  padding: 1px 5px;
+  border-radius: 4px;
+  color: #333;
+  background: #f1f1f4;
+  font-size: 90%;
+}
+
+.page-body kbd {
+  padding: 1px 6px;
+  border: 1px solid #c8c8cc;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  color: #222;
+  background: #f7f7f9;
+  box-shadow: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-size: 90%;
+}
+
+.page-body .updated {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.page-body .callout {
+  margin: 0 0 20px;
+  padding: 14px 18px;
+  border-left: 4px solid #fdcc52;
+  border-radius: 4px;
+  background: #fff8e5;
+}
+
+.page-body .callout p:last-child {
+  margin-bottom: 0;
+}
+
+.page-cta {
+  padding: 40px 0;
+  color: #222;
+}
+
+.page-cta p {
+  margin-bottom: 14px;
+}
