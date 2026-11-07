@@ -32,7 +32,8 @@ Requests (N = seconds, 1–60, default 5):
 - `window <App name> N`: that app's frontmost window, e.g. `window Simulator 8`
 - `region x,y,width,height N`: points from the main display's top-left corner
 Quote app names that end in a number: `window "Things 3" 5`.
-On an error it prints a message saying what to fix (e.g. the window isn't on screen).
+If the output starts with "Error:", nothing was recorded; the message says what to fix
+(e.g. the window isn't on screen). The exit code is 0 either way.
 More: https://gifableapp.com/ai
 ```
 
@@ -42,4 +43,5 @@ More: https://gifableapp.com/ai
 - **Windows** must be on screen and not minimised. They don't need to be in front: Gifable records the window itself, so other windows covering it don't show up.
 - **Stop early** by clicking Stop in the menu bar; the agent gets the shorter clip.
 - **One shortcut, one name.** If you add the shortcut twice, `shortcuts run "Gifable Record"` can't tell them apart and fails with "Couldn't find shortcut". Delete the extra copy in the Shortcuts app.
+- **No notifications for errors.** Problems come back as output starting with `Error:` rather than as a failed shortcut, so macOS doesn't post a notification each time your agent gets something wrong.
 - Running the shortcut with no input (from the Shortcuts app or its menu) records the whole screen for 5 seconds.
