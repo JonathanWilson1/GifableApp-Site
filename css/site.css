@@ -118,6 +118,22 @@ footer ul li a:focus {
   font-size: 90%;
 }
 
+.page-body pre {
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: #f1f1f4;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-size: 85%;
+  line-height: 1.5;
+}
+
+.page-body pre code {
+  padding: 0;
+  background: none;
+  font-size: 100%;
+}
+
 .page-body kbd {
   padding: 1px 6px;
   border: 1px solid #c8c8cc;
