@@ -47,9 +47,8 @@ Yes. Gifable includes a Shortcuts action that agents such as Claude Code, Cursor
 
 Still stuck, found a bug or have an idea for Gifable? Get in touch:
 
-<!-- TODO(Jonathan): contact email. gifableapp.com has no MX records (checked 6 Nov 2026), so an @gifableapp.com address would bounce. Replace this callout with a working support address before submitting Gifable 4.0. -->
 <div class="callout">
-  <p><strong>Support email: coming soon.</strong> We're setting up a support address for Gifable 4.0, and it will be listed here.</p>
+  <p><strong>Email:</strong> <a href="mailto:support@boxroomsoftware.com?subject=%5BGifable%5D%20Support">support@boxroomsoftware.com</a></p>
 </div>
 
 When you write, please include your Mac model and the versions of macOS and Gifable you're using.
